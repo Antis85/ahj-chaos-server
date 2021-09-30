@@ -25,7 +25,7 @@ app.use(async (ctx, next) => {
     return await next();
   }
   // const headers = { 'Access-Control-Allow-Origin': 'http://localhost:9999'};
-  const headers = { 'Access-Control-Allow-Origin': 'https://antis85.github.io/ahj-chaos-organizer/'};
+  const headers = { 'Access-Control-Allow-Origin': 'https://antis85.github.io'};
   if (ctx.request.method !== 'OPTIONS') {
     ctx.response.set({ ...headers });
     try {
