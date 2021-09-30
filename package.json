@@ -1,0 +1,27 @@
+{
+  "name": "ahj-chaos-server",
+  "version": "1.0.0",
+  "description": "ahj",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "prestart": "yarn install",
+    "start": "forever ./src/js/server.js",
+    "watch": "forever -w ./src/js/server.js"
+  },
+  "repository": "https://github.com/Antis85/ahj-chaos-server.git",
+  "author": "Antis",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^3.0.2",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.0",
+    "ws": "^7.4.3"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
