@@ -24,7 +24,7 @@ presetPostsArray.push({
     longitude: '44.00315',
   },
   file: {
-    url: 'http://localhost:7071/31/unsplash.com.jpg',
+    url: 'https://ahj-chaos-organizer.herokuapp.com/31/unsplash.com.jpg',
     name: 'unsplash.com.jpg',
     type: 'image',
   },
@@ -41,7 +41,7 @@ presetPostsArray.push({
     latitude: '56.32843', 
     longitude: '44.00315',
   },
-  text: 'Link demo: https://antis85.github.io/ahj-chaos-organizer/',
+  text: 'Link demo: https://antis85.github.io/ahj-chaos-organizer, https://github.com/Antis85/ahj-chaos-server',
   status: {
     pinned: false,
     favorite: false,
